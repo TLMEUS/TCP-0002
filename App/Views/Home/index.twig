@@ -1,0 +1,27 @@
+{% extends "layout.twig" %}
+
+{% block title %}Login Page{% endblock %}
+
+{% block body %}
+
+    <div class="w3-row">
+        <div class="w3-third">
+            <div class="w3-container"></div>
+        </div>
+        <div class="w3-third w3-center">
+            <div class="w3-container">
+                <form>
+                    <input class="w3-input" type="text">
+                    <label>Username</label>
+                    <input class="w3-input" type="password">
+                    <label>Password</label><br />
+                    <input class="w3-button w3-red w3-round-xxlarge" type="submit" value="Login">
+                </form>
+            </div>
+        </div>
+        <div class="w3-third">
+        </div>
+    </div>
+
+
+{% endblock %}

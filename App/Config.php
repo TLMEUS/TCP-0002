@@ -17,14 +17,14 @@
 namespace App;
 
 /**
- * Framework configuration settings
+ * TCP-0002 configuration settings
  */
 class Config {
 
     /**
      * Database host name
      */
-    const DB_HOST = 'localhost';
+    const DB_HOST = 'login.tlme.us';
 
     /**
      * Database schema name
